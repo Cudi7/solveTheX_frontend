@@ -1,0 +1,40 @@
+{
+  "name": "solvethex-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "roboto-fontface": "*",
+    "vue": "^3.2.25",
+    "vuetify": "^3.0.0-beta.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/webfontloader": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.0",
+    "eslint": "^8.11.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.6.0",
+    "sass": "^1.38.0",
+    "sass-loader": "^10.0.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vue-cli-plugin-vuetify": "~2.4.8",
+    "vue-tsc": "^0.29.8",
+    "vuetify-loader": "^2.0.0-alpha.0"
+  }
+}

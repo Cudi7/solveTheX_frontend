@@ -1,0 +1,5 @@
+export const editUrl = 'http://localhost:5000/api/pokemon/update/'
+export const deleteUrl = 'http://localhost:5000/api/pokemon/delete/'
+export const fetchAllUrl = 'http://localhost:5000/api/pokemon/all'
+export const newUrl = 'http://localhost:5000/api/pokemon/new'
+export const searchByIdUrl = 'http://localhost:5000/api/pokemon/'
